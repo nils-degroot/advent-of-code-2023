@@ -1,5 +1,6 @@
 alias s := scaffold
 alias r := run
+alias t := test
 
 scaffold day:
 	cargo new day{{day}}
@@ -9,3 +10,6 @@ scaffold day:
 
 run day:
 	cargo run -p day{{day}}
+
+test day:
+	cargo test -p day{{day}}run
