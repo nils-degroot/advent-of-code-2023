@@ -12,4 +12,4 @@ run day:
 	cargo run -p day{{day}}
 
 test day:
-	cargo test -p day{{day}}run
+	cargo test -p day{{day}}
