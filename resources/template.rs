@@ -5,11 +5,11 @@ fn main() {
     println!("Part 2: {}", part2(input));
 }
 
-fn part1(input: &str) -> String {
+fn part1(input: &str) -> i32 {
     todo!()
 }
 
-fn part2(input: &str) -> String {
+fn part2(input: &str) -> i32 {
     todo!()
 }
 
@@ -22,12 +22,12 @@ mod tests {
     #[test]
     fn part1_sample_input() {
         let out = part1(INPUT);
-        assert_eq!(out, "".to_string())
+        assert_eq!(out, 0)
     }
 
     #[test]
     fn part2_sample_input() {
         let out = part2(INPUT);
-        assert_eq!(out, "281".to_string())
+        assert_eq!(out, 0)
     }
 }
